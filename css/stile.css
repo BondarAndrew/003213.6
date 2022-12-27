@@ -218,13 +218,13 @@
   padding: 15px;
   display: flex;
   flex-direction: column;
-  height: 100%;
   justify-content: end;
 }
 
 .orange-element {
   background-color: #f7941e;
   width: 100%;
+  padding: 50px;
 }
 
 .orange-element-container {
@@ -377,6 +377,7 @@
   font-size: 30px;
   line-height: 140.62%;
   color: #000000;
+  margin-bottom: auto;
 }
 
 .bottom-text {
@@ -449,6 +450,10 @@
     margin: auto;
   }
 
+  .bottom-text {
+    margin: 10px 0;
+  }
+
   .orange-element-button {
     white-space: nowrap;
   }
@@ -491,7 +496,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 980px) {
   .orange-element-container {
     display: flex;
     flex-direction: column;
@@ -500,6 +505,10 @@
 
   .orange-element-buttons {
     margin: auto;
+  }
+
+  .orange-element-text {
+    margin: 10px 0;
   }
 }
 
@@ -533,6 +542,29 @@
   }
 }
 
+@media (max-width: 725px) {
+  .see-more {
+    display: block;
+  }
+
+  .gifts-card {
+    height: 380px;
+  }
+
+  .blog-card-bottom {
+    width: 100%;
+  }
+
+  .blog-cards-bottom {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .bottom-text {
+    margin: 10px 0;
+  }
+}
+
 @media (max-width: 600px) {
   .menu-media {
     width: 50px;
@@ -551,31 +583,29 @@
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 580px) {
   .orange-element-button {
     font-size: 15px;
+    padding: 10px;
   }
 
   .orange-element-button2 {
     font-size: 15px;
+    padding: 10px;
   }
-}
 
-@media (max-width: 380px) {
   .orange-element-title {
-    font-size: 20px;
-  }
-
-  .orange-element-button2 {
-    padding: 15px;
+    font-size: 25px;
+    white-space: nowrap;
   }
 
   .orange-element-text {
-    font-size: 15px;
+    font-size: 20px;
+    margin: 10px 0;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 440px) {
   .orange-element {
     display: none;
   }
